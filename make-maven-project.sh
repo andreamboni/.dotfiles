@@ -1,0 +1,2 @@
+# Criar um script pra isso
+mvn archetype:generate -DgroupId=com.javachallenges -DartifactId=java-challenges -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false/marketplace-client-intro/marketplace-client-intro
