@@ -85,6 +85,8 @@ sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
 
 sudo adduser your_username kvm
 
+sudo adduser andreamboni kvm
+
 sudo adduser andreamboni libvirt
 
 groups
@@ -92,3 +94,4 @@ groups
 virsh list --all
 
 sudo apt-get install virt-manager
+
