@@ -13,7 +13,7 @@ _BOLD=$(tput bold)
 
 # Git branching method
 parse_git_branch() {
-  git branch --show-current 2>/dev/null | sed 's/\(.*\)/( \1 )/'
+  git branch --show-current 2>/dev/null | sed 's/\(.*\)/(\1)/'
 }
 
 # Making methods being interpreted dynamically
