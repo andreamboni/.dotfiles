@@ -19,7 +19,7 @@ parse_git_branch() {
 # Making methods being interpreted dynamically
 setopt PROMPT_SUBST
 
-PS1='${_BOLD}${_BLUE}[%n]${_GREEN}[%~]${_RED}$(parse_git_branch) ${_MAGENTA}$ ${_WHITE}'
+PS1='${_BOLD}${_BLUE}[%n]${_GREEN}[%1~]${_RED}$(parse_git_branch) ${_MAGENTA}$ ${_WHITE}'
 
 # Aliases
 alias ll='ls -alF'
